@@ -59,7 +59,7 @@
       <!-- product and coupon section -->
       <section
         id="products-container"
-        class="w-11/12 mx-auto  grid grid-cols-1 md:grid-cols-12 gap-10 mt-40"
+        class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 mt-40"
       >
         <!-- product section -->
         <section id="product-box" class="col-span-9 md:col-span-9">
@@ -76,12 +76,12 @@
                   />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">K. Accessories</h2>
+                  <h2 id="card-title-1" class="card-title">K. Accessories</h2>
                   <p>⭐⭐⭐⭐⭐</p>
-                  <p class="text-gray-500"><span>150.00</span></p>
+                  <p class="text-gray-500"><span id="card-price-1">150.40</span></p>
                 </div>
                 <div class="m-5">
-                    <button class="btn btn-secondary btn-block">Add to Cart</button>
+                    <button id="cart-btn-1" class="btn btn-secondary btn-block">Add to Cart</button>
                 </div>
               </div>
 
@@ -95,12 +95,12 @@
                   />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">K. Accessories</h2>
+                  <h2 id="card-title-2" class="card-title">K. Accessories</h2>
                   <p>⭐⭐⭐⭐⭐</p>
-                  <p class="text-gray-500"><span>150.00</span></p>
+                  <p class="text-gray-500"><span id="card-price-2">150.00</span></p>
                 </div>
                 <div class="m-5">
-                    <button class="btn btn-secondary btn-block">Add To Cart</button>
+                    <button id="cart-btn-2" class="btn btn-secondary btn-block">Add To Cart</button>
                 </div>
               </div>
 
@@ -114,12 +114,12 @@
                   />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title">K. Accessories</h2>
+                  <h2 id="card-title-3" class="card-title">K. Accessories</h2>
                   <p>⭐⭐⭐⭐⭐</p>
-                  <p class="text-gray-500"><span>150.00</span></p>
+                  <p class="text-gray-500"><span id="card-price-2">150.00</span></p>
                 </div>
                 <div class="m-5">
-                    <button class="btn btn-secondary btn-block">Add To Cart</button>
+                    <button id="cart-btn-3" class="btn btn-secondary btn-block">Add To Cart</button>
                 </div>
               </div>
             </div>
@@ -141,18 +141,22 @@
           <!-- cart section -->
           <div class="bg-white mt-10 p-5 rounded-lg">
             <h1 class="font-bold">Cart</h1>
-            <div class="" id="cart-container">
+            <div class="space-y-5" id="cart-container">
+
+            </div>
+            <div>
                 <h2>Total Price <span id="total-price">0</span></h2>
                 <h2>Total Quantity <span id="total-quantity">0</span></h2>
                 <button class="btn btn-secondary btn-block rounded-xl">Make Purchase</button>
-
-                
-            </div>
+            </div> 
           </div>
 
 
         </aside>
       </section>
     </main>
+
+
+    <script src="./script/index.js"></script>
   </body>
 </html>
