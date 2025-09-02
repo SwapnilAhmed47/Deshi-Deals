@@ -67,7 +67,7 @@
             <h1 class="text-2xl font-bold mb-5">KitchenWare</h1>
             <div class="Kitchen-items grid grid-cols-1 md:grid-cols-3 gap-5">
               <!-- product cart 1 -->
-              <div class="card bg-base-100 shadow-sm">
+              <div id="card-1" class="card bg-base-100 shadow-sm">
                 <figure class="p-10 bg-gray-200 m-5">
                   <img
                     src="./assets/kitchen-1.png"
@@ -131,7 +131,7 @@
 
           <!--coupon section-->
           <div class="bg-white p-5 rounded-lg">
-            <h1 class="font-bold">Have a coupon</h1>
+            <h1 class="font-bold mb-2">Have a coupon</h1>
             <div class="join w-full">
               <input class="input join-item" placeholder="Coupon code" />
               <button class="btn btn-secondary join-item rounded-xl">Apply</button>
@@ -141,13 +141,13 @@
           <!-- cart section -->
           <div class="bg-white mt-10 p-5 rounded-lg">
             <h1 class="font-bold">Cart</h1>
-            <div class="space-y-5" id="cart-container">
+            <div class="space-y-5 mt-5" id="cart-container">
 
             </div>
-            <div>
-                <h2>Total Price <span id="total-price">0.00</span></h2>
-                <h2>Total Quantity <span id="total-quantity">0</span></h2>
-                <button class="btn btn-secondary btn-block rounded-xl">Make Purchase</button>
+            <div class="mt-10">
+                <h2 class="font-bold">Total Price: <span id="total-price" class="font-normal">0.00</span></h2>
+                <h2 class="my-2 font-bold">Total Quantity: <span class="font-normal" id="total-quantity">0</span></h2>
+                <button class="btn btn-secondary btn-block rounded-xl mt-2">Make Purchase</button>
             </div> 
           </div>
 
